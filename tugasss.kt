@@ -15,7 +15,8 @@ class Produk(var nama: String, var harga: Double, var stok: Int) {
         }
     }
 }
-
+fun main() {
+    
     val produk1 = Produk("Laptop", 15000000.0, 10)
     produk1.tampilkanInformasiProduk()
     produk1.beliProduk(3) // Membeli 3 unit
